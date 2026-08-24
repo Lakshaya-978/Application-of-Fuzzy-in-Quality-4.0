@@ -83,6 +83,7 @@ These parameters were selected because of their influence on machine health and 
   - High
 - Triangular membership functions are used.
 - Membership ranges are defined using insights obtained from exploratory data analysis and box-plot visualization.
+  ![Torque Membership Function](images/mf_torque.png)
 
 ### Output Variable
 
@@ -95,6 +96,7 @@ The output of the fuzzy system is a **Maintenance Score** ranging from **0 to 1*
 | 0.6 – 1.0 | Maintenance Required (Red) |
 
 The Maintenance Score acts as an indicator of machine health and maintenance urgency.
+![Output Membership Function](images/output_mf.png)
 
 ---
 
@@ -123,6 +125,7 @@ The complete rule set combines expert knowledge with observed machine behavior t
 ### Data Analysis
 
 Exploratory data analysis was performed using box plots to compare failure and non-failure observations.
+![Torque Box Plot](images/box_plot_torque.png)
 
 Key observations:
 
@@ -135,6 +138,7 @@ Key observations:
 All data points from the AI4I 2020 dataset were evaluated using the developed fuzzy inference system.
 
 The system generates a Maintenance Score between 0 and 1 for every observation.
+![Maintenance Score Distribution](images/msd.png)
 
 ### Interpretation of Results
 
